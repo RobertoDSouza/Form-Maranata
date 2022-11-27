@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Maranata Serviços" content="Diversos serviços especializados para voçê!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Formulário Maranata Serviços </title>
+</head>
+<body>
+    
+    
+      
+        <section class="disclaimer" >
+          
+          <div class="text">
+            <img src="logosemfundo.png" alt="Maranata Serviços">
+            <h1>Preencha o Formulário da Maranata Serviços. <br>Nos diga qual serviço
+               precisa e um profissional da área entrará em contato com você!
+            </h1>
+            
+          </div>
+          
+        </section>
+
+<section class="formulario">
+    <form name="meu_form" action="./email.php">
+
+      
+        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+        
+        <input type="tel" id="foneid" placeholder="Fone/Watshapp (xx)xx-xx-xx-xx" name="fone" />
+        
+        <input type="text" id="bairroid" placeholder="Bairro" required="required" name="bairro" />
+
+        <input type="email" id="emailid" placeholder="seuemail@email.com" name="email" />
+       
+        <select name="select">
+            
+            <option value="valor1">QUAL O SERVIÇO DESEJADO?</option>
+
+            <optgroup label="GESSO, FORRO E DRYWALL ">
+                <option value="valor2">Forro Drywall Tabicado</option>
+                <option value="valor3">Sancas com Elétrica</option>
+                <option value="valor4">Divisória de Drywall</option>
+                <option value="valor5">Gesso Liso</option>
+                <option value="valor6">Forro de PVC </option>
+                <option value="valor7">Molduras Roda Teto</option>
+            </optgroup>
+
+            <optgroup label="CONSTRUÇÃO E REFORMA">
+                <option value="valor8">Alvenaria e Reboco </option>
+                <option value="valor9">Piso e Revestimento </option>
+                <option value="valor10">Reformas e Construção </option>
+                <option value="valor11">Encanamento e Instalação </option>
+                <option value="valor12">Laje e Estrutura </option>
+                <option value="valor13">Telhado e Cobertura </option>
+            </optgroup>
+
+            <optgroup label="SERRALHARIA E SOLDA">
+                <option value="valor14">Conserto de Porta em Aço</option>
+                <option value="valor15">Troca da Fita de Porta em Aço</option>
+                <option value="valor16">Eixo de Porta em Aço</option>
+                <option value="valor17">Grades e Corrimão</option>
+                <option value="valor18">Portões em Geral</option>
+                <option value="valor19">Grades, Portas e Janelas</option>
+            </optgroup>
+
+            <optgroup label="PINTURAS">
+                <option value="valor20">Massa Corrida e Tinta</option>
+                <option value="valor21">Tintas e Reparos</option>
+                <option value="valor22">Pintura Decorativa</option>
+                <option value="valor23">Grafitado e Textura</option>
+                <option value="valor24">Pintura de Sobrado</option>
+                <option value="valor25">Pintura de Residência</option>
+                <option value="valor26">Pintura de Sala Comercial</option>
+                <option value="valor27">Pintura de Apartamento</option>
+            </optgroup>
+
+            <optgroup label="ELÉTRICA">
+                <option value="valor28">Tomada </option>
+                <option value="valor29">Serviços em Ventilador de Teto</option>
+                <option value="valor30">Quadro de Energia </option>
+                <option value="valor31">Quando Interno </option>
+                <option value="valor32">Serviços em Chuveiro Elétrico </option>
+                <option value="valor33">Torneira Elétrica</option>
+            </optgroup>
+
+            <optgroup label="PEDREIRO">
+                <option value="valor34">Alvenaria</option>
+                <option value="valor35">Assentar Tijolos e Rebocar </option>
+                <option value="valor36">Assemtamento Portas e Janelas </option>
+                <option value="valor37">Contra Piso </option>
+                <option value="valor38">Paredes e Muros </option>
+            </optgroup>
+
+            <optgroup label="MARMOARIA E GRANITO">
+            <option value="valor39">Pia e Lavabo</option>
+            <option value="valor40">Mesas e Bancadas </option>
+            <option value="valor41">Escadas </option>
+            <option value="valor42">Limpeza, colagem ou Polimento </option>
+            <option value="valor43">Outros (Nos conte nas observações) </option>
+            </optgroup>
+
+            <optgroup label="SERVIÇOS DOMESTICOS">
+                <option value="valor44">Limpeza Padrão </option>
+                <option value="valor45">Limpeza Diarista </option>
+                <option value="valor46">Limpeza Mensalista </option>
+                <option value="valor47">Babá </option>
+                <option value="valor48">Cuidador(a) de Idosos </option>
+                <option value="valor49">Lavar e Passar </option>
+            </optgroup>
+
+            <optgroup label="MARIDO DE ALUGUEL">
+                <option value="valor50">Consertos e Manutenções</option>
+                <option value="valor51">Pequenas Reformas</option>
+                <option value="valor52">Pequenas Instalações</option>
+                <option value="valor53">Ar Condicionado</option>
+                <option value="valor54">Chuveiro</option>
+                <option value="valor55">Cortina</option>
+                <option value="valor56">Torneira</option>
+                <option value="valor57">Pia ou Porta</option>
+                <option value="valor58">Quadro de Energia</option>
+                <option value="valor59">Vaso Sanitário</option>
+                <option value="valor60">Ventilador</option>
+                <option value="valor61">Serviços Elétricos</option>
+            </optgroup>
+          </select>
+      
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+      </form>
+    </section>
+
+      <footer class="foot">
+        
+        <ul class="contact">
+          <h4>copyright<i class="bi bi-c-circle"></i> by Roberto Souza</h4>
+          <li><a href="https://robertosouzadev.com.br/"target="_black"><i class="bi bi-globe2"></i></a></li>
+          <li><a href="https://github.com/RobertoDSouza"  target="_blank"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/roberto-francisco-santana-de-souza-01ba10205/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://wa.me/5581987190342/" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+      </div>
+      </footer>
+</body>
+</html>
